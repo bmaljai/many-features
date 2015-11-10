@@ -1,0 +1,15 @@
+<h1>you have arrived at the beer page!</h1>
+<!--<% while @bottles >= 0 %>
+      <%= "#{@bottles} of beer" %>
+      <% @bottles -= 1 %>
+
+<%  end %>-->
+
+<ul>
+<% @lyrics.each do |lyric| %>
+<li>
+<%= lyric %>
+</li>
+<% end %>
+</ul>
+
